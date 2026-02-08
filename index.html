@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wildlife Conservation India - Protecting India's Rich Biodiversity and Endangered Species">
+    <meta name="keywords" content="wildlife conservation India, endangered species India, tiger conservation, elephant protection">
+    <title>Wildlife Conservation - Home</title>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <i class="fas fa-paw text-success fs-3 me-2"></i>
+                <span class="fw-bold text-success">Wildlife India</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fas fa-info-circle me-1"></i>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="species.html"><i class="fas fa-paw me-1"></i>Species</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html"><i class="fas fa-leaf me-1"></i>Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteer.html"><i class="fas fa-hands-helping me-1"></i>Volunteer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope me-1"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <img src="img/rbt.webp" class="d-block w-100 carousel-img" alt="Bengal Tiger in Indian Forest">
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1 class="display-3 fw-bold mb-3">Save India's Bengal Tigers</h1>
+                    <p class="lead mb-4">Join us in protecting the majestic Royal Bengal Tiger and preserving India's rich wildlife heritage</p>
+                    <a href="volunteer.html" class="btn btn-warning btn-lg me-2">Volunteer Now</a>
+                    <a href="about.html" class="btn btn-outline-light btn-lg">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img src="img/elephant.webp" class="d-block w-100 carousel-img" alt="Indian Elephants">
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1 class="display-3 fw-bold mb-3">Protect Indian Elephants</h1>
+                    <p class="lead mb-4">Help us create safe corridors and habitats for India's gentle giants</p>
+                    <a href="programs.html" class="btn btn-warning btn-lg me-2">Our Programs</a>
+                    <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1920&h=800&fit=crop" class="d-block w-100 carousel-img" alt="Wildlife Conservation Work">
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1 class="display-3 fw-bold mb-3">Conservation in Action</h1>
+                    <p class="lead mb-4">Discover how we're making a difference across India's national parks and sanctuaries</p>
+                    <a href="species.html" class="btn btn-warning btn-lg me-2">View Species</a>
+                    <a href="about.html" class="btn btn-outline-light btn-lg">About Us</a>
+                </div>
+            </div>
+           
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=1920&h=800&fit=crop" class="d-block w-100 carousel-img" alt="Indian Wildlife Habitat">
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1 class="display-3 fw-bold mb-3">Preserve Natural Habitats</h1>
+                    <p class="lead mb-4">From the Himalayas to the Western Ghats - protecting India's biodiversity hotspots</p>
+                    <a href="volunteer.html" class="btn btn-warning btn-lg me-2">Get Involved</a>
+                    <a href="programs.html" class="btn btn-outline-light btn-lg">View Programs</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+   
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold text-success mb-3">Welcome to Wildlife Conservation India</h2>
+                    <p class="lead text-muted mb-4">Protecting India's incredible biodiversity for future generations</p>
+                    <p>India is home to some of the world's most magnificent wildlife species. From the majestic Bengal Tiger to the one-horned Rhinoceros, from Asiatic Lions to Snow Leopards, our nation's rich biodiversity is unparalleled. However, these precious species face unprecedented threats from habitat loss, poaching, and climate change.</p>
+                    <p>Wildlife Conservation India is dedicated to protecting endangered species, preserving natural habitats, and promoting coexistence between humans and wildlife across the country.</p>
+                    <a href="about.html" class="btn btn-success btn-lg mt-3">
+                        <i class="fas fa-info-circle me-2"></i>More About Us
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=600&h=400&fit=crop" alt="Indian Wildlife" class="img-fluid rounded shadow-lg" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center display-6 fw-bold text-success mb-5">Our Impact Across India</h2>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-shield-alt text-warning display-4 mb-3"></i>
+                        <h3 class="display-5 fw-bold text-success mb-2">50+</h3>
+                        <p class="text-muted mb-0">Species Protected</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-tree text-success display-4 mb-3"></i>
+                        <h3 class="display-5 fw-bold text-success mb-2">500K+</h3>
+                        <p class="text-muted mb-0">Acres Protected</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-users text-primary display-4 mb-3"></i>
+                        <h3 class="display-5 fw-bold text-success mb-2">25K+</h3>
+                        <p class="text-muted mb-0">Volunteers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-map-marker-alt text-danger display-4 mb-3"></i>
+                        <h3 class="display-5 fw-bold text-success mb-2">100+</h3>
+                        <p class="text-muted mb-0">Locations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center display-6 fw-bold text-success mb-2">India's Endangered Species</h2>
+            <p class="text-center text-muted mb-5">Protecting our nation's magnificent wildlife heritage</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 species-card">
+                        <div class="position-relative">
+                            <img src="img/rbt.webp" class="card-img-top" alt="Bengal Tiger" loading="lazy">
+                            <span class="badge bg-danger position-absolute top-0 end-0 m-3">Endangered</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Bengal Tiger</h5>
+                            <p class="text-muted small mb-2"><i class="fas fa-map-marker-alt me-1"></i>Found in: Central & Southern India</p>
+                            <p class="card-text">India's national animal with approximately 3,000 individuals. Major populations in Sundarbans, Jim Corbett, and Ranthambore.</p>
+                            <a href="species.html" class="btn btn-outline-success btn-sm">
+                                <i class="fas fa-arrow-right me-1"></i>Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 species-card">
+                        <div class="position-relative">
+                            <img src="img/asiaticlion.webp" class="card-img-top" alt="Asiatic Lion" loading="lazy">
+                            <span class="badge bg-danger position-absolute top-0 end-0 m-3">Endangered</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Asiatic Lion</h5>
+                            <p class="text-muted small mb-2"><i class="fas fa-map-marker-alt me-1"></i>Found in: Gir Forest, Gujarat</p>
+                            <p class="card-text">The last remaining population of Asiatic lions with around 674 individuals, exclusively found in Gir National Park.</p>
+                            <a href="species.html" class="btn btn-outline-success btn-sm">
+                                <i class="fas fa-arrow-right me-1"></i>Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 species-card">
+                        <div class="position-relative">
+                            <img src="img/elephant.webp" class="card-img-top" alt="Indian Elephant" loading="lazy">
+                            <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-3">Vulnerable</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Indian Elephant</h5>
+                            <p class="text-muted small mb-2"><i class="fas fa-map-marker-alt me-1"></i>Found in: Northeast & Southern India</p>
+                            <p class="card-text">Approximately 27,000 elephants remain in the wild, facing threats from habitat fragmentation and human-wildlife conflict.</p>
+                            <a href="species.html" class="btn btn-outline-success btn-sm">
+                                <i class="fas fa-arrow-right me-1"></i>Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="species.html" class="btn btn-success btn-lg">
+                    <i class="fas fa-binoculars me-2"></i>View All Species
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center display-6 fw-bold text-success mb-2">Our Conservation Programs</h2>
+            <p class="text-center text-muted mb-5">Making a difference across India's wildlife sanctuaries</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="program-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <div class="icon-box bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-shield-alt text-success fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold text-success mb-3">Tiger Conservation</h5>
+                        <p class="text-muted">Project Tiger initiative protecting Bengal Tigers across 52 reserves in India through anti-poaching and habitat restoration.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="program-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <div class="icon-box bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-tree text-primary fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold text-success mb-3">Habitat Restoration</h5>
+                        <p class="text-muted">Restoring degraded forests and creating wildlife corridors in Western Ghats and Eastern Himalayas biodiversity hotspots.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="program-card text-center p-4 bg-white rounded shadow-sm h-100">
+                        <div class="icon-box bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                            <i class="fas fa-hands-helping text-warning fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold text-success mb-3">Community Programs</h5>
+                        <p class="text-muted">Working with local communities to promote coexistence and provide sustainable livelihood alternatives near forests.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="programs.html" class="btn btn-success btn-lg">
+                    <i class="fas fa-leaf me-2"></i>Explore All Programs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center display-6 fw-bold mb-2">Conservation in Action</h2>
+            <p class="text-center text-white-50 mb-5">Watch our team's work protecting India's wildlife</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="ratio ratio-16x9 rounded overflow-hidden shadow-lg">
+                        <video controls poster="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1200&h=675&fit=crop">
+                            <source src="img/wildlife.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-5 bg-success text-white">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold mb-3">Join India's Wildlife Conservation Movement</h2>
+            <p class="lead mb-4">Every action counts in protecting our natural heritage. Get involved today!</p>
+            <a href="volunteer.html" class="btn btn-warning btn-lg me-2 mb-2">
+                <i class="fas fa-hands-helping me-2"></i>Volunteer Now
+            </a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg mb-2">
+                <i class="fas fa-envelope me-2"></i>Contact Us
+            </a>
+        </div>
+    </section>
+
+    
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-paw text-success me-2"></i>Wildlife India
+                    </h5>
+                    <p class="text-white-50">Dedicated to protecting India's rich biodiversity and endangered species through conservation, research, and community engagement.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="species.html" class="text-white-50 text-decoration-none">Species</a></li>
+                        <li class="mb-2"><a href="programs.html" class="text-white-50 text-decoration-none">Programs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Get Involved</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="volunteer.html" class="text-white-50 text-decoration-none">Volunteer</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Donate</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Adopt an Animal</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            123 Wildlife Lane, New Delhi, India
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-phone me-2"></i>
+                            +91 9876543210
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-envelope me-2"></i>
+                            info@wildlifeindia.org
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-white opacity-25 ">
+            <div class="row ">
+                <div class="col-md-6 text-center text-md-start " >
+                    <p class="text-white-50 mb-0">&copy; 2026 Wildlife Conservation India. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white-50 text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50 text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <button id="backToTop" class="btn btn-success rounded-circle position-fixed bottom-0 end-0 m-4 shadow-lg" style="display: none; width: 50px; height: 50px; z-index: 1000;">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
