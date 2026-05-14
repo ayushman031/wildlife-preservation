@@ -1,9 +1,3 @@
-/* =======================================
-   WILDLIFE CONSERVATION INDIA
-   Custom JavaScript File
-   ======================================= */
-
-// ===== BACK TO TOP BUTTON =====
 document.addEventListener('DOMContentLoaded', function() {
     const backToTop = document.getElementById('backToTop');
     
@@ -170,8 +164,8 @@ if (volunteerForm) {
         }
         
         // Validate age
-        if (age < 18 || age > 70) {
-            alert('Age must be between 18 and 70');
+        if (age < 18 || age > 1000) {
+            alert('Age must be between 18 and 100');
             return;
         }
         
@@ -218,40 +212,6 @@ if (volunteerForm) {
         }, 2000);
     });
 }
-
-// ===== DATE AND TIME DISPLAY (FOR CONTACT PAGE) =====
-function updateDateTime() {
-    const dateElement = document.getElementById('currentDate');
-    const timeElement = document.getElementById('currentTime');
-    
-    if (dateElement && timeElement) {
-        const now = new Date();
-        
-        // Format date
-        const options = { 
-            weekday: 'long', 
-            year: 'numeric', 
-            month: 'long', 
-            day: 'numeric' 
-        };
-        const dateString = now.toLocaleDateString('en-IN', options);
-        dateElement.textContent = dateString;
-        
-        // Format time
-        const timeOptions = {
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit',
-            hour12: true
-        };
-        const timeString = now.toLocaleTimeString('en-IN', timeOptions);
-        timeElement.textContent = timeString;
-    }
-}
-
-// Update date/time immediately and then every second
-updateDateTime();
-setInterval(updateDateTime, 1000);
 
 // ===== CAROUSEL AUTO-PLAY CONTROL =====
 const heroCarousel = document.getElementById('heroCarousel');
@@ -399,7 +359,6 @@ window.addEventListener('load', function() {
     }, 100);
 });
 
-// ===== ACCESSIBILITY: KEYBOARD NAVIGATION =====
 document.addEventListener('keydown', function(e) {
     // ESC key to close modals or dropdowns
     if (e.key === 'Escape') {
